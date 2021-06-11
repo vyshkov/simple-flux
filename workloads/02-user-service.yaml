@@ -23,7 +23,7 @@ spec:
             - name: PORT
               value: "3000"
             - name: DATABASE_URL
-              value: "mongodb://mongod-0.mongodb-service.default.svc.cluster.local,mongod-1.mongodb-service.default.svc.cluster.local,mongod-2.mongodb-service.default.svc.cluster.local:27017/users"
+              value: "mongodb://mongodb-service:27017/users"
             - name: REDIS_PORT
               value: "6379"
             - name: REDIS_HOST
